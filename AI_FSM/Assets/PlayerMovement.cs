@@ -31,9 +31,12 @@ public class PlayerMovement : MonoBehaviour
 		horiz += Input.GetAxisRaw("Horizontal") * playerSpeed * Time.deltaTime;
 		vert += Input.GetAxisRaw("Vertical") * playerSpeed * Time.deltaTime;
 		
+		
 		// here we create a new vector 2 to handle the transformation
 		Vector2 movement = new Vector2(horiz, vert);
 
+		
+		// This if checks to see if there is any player input and switches the animatin on/off accordingly
 		if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") !=0)
 		{
 			_anims.SetBool("IsWalking", true);

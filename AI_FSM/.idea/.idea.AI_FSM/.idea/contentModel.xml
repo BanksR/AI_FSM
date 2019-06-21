@@ -5,6 +5,7 @@
       <e p="AI_FSM.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="GhostMovement.cs" t="Include" />
         <e p="PlayerMovement.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />

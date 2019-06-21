@@ -2,11 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2069a646-de91-46ca-978a-c47f69197550" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AI_FSM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AI_FSM/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AI_FSM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AI_FSM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Init_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Init_scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Wizard.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Wizard.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CrashedAssetImports.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/a2/a2e191540ab304710807c4e9072da84d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/a2/a2e191540ab304710807c4e9072da84d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityLockfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-0edd24f05bc6945acb526b1856274bf8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-1c6961defb7e2424abb4ec0597461e70" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-33de12ba7ed5a4b76a3ac1588fbabdbb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-381a2960f53994d8fb7ea75ba6d07ba0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-39dbcdcdb43954e2385c827bf8db272b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-4aa2378dc43904483a67e621aa90cee1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-4c9415181ef924841820fb6823558cd1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-504c83d2f43a4497bbc432c04f020f66" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-5fcfc08e29689473ba41d39c1564a218" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-626f2e11d0baa43519cf48957e96bd46" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-6d9d8f82c616440b7a38535c838d8e8a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-72f609eaeed1640329d63f47cdfa96f2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-75ee104323080401b90c2d1474fc719f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-8f689f00a5a2a4a4baa30dcb6752bd04" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-95e43a26aee0d4cf2bf758bf7aac60f0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-ab89f4db26e8e4b2d8207bf95fe148e6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-baebc5297e8a24ebb8ca65a3329e1fb6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-bc2e0b9fd9b65461781206fb080e8b6a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-c72cafbba1b5041b38e9c3231fd9ca03" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-ce74e4166f9df44dd9b5d68312c1bac0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-d4a6a4e7e599c40a1ae5f7c498b5573c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-e431fab8a5e9441859b6ddad4042a9ba" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-e9646a266fb6047a290bfe82d56d4647" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-f5567f57aa0d54c2891ccbc046da1fe6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-fe1de14acba094fc5bab28001adf91dd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-ff2becdb8aebc431aa349d904de97a1d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,18 +54,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PlayerMovement.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlayerMovement.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/PlayerMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="36" column="83" selection-start-line="36" selection-start-column="83" selection-end-line="36" selection-end-column="83" />
+            <state relative-caret-position="580">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
-                <marker date="1561118663505" expanded="true" signature="6:92" ph="..." />
-                <marker date="1561118663505" expanded="true" signature="138:1146" ph="{...}" />
-                <marker date="1561118663505" expanded="true" signature="354:397" ph="{...}" />
-                <marker date="1561118663505" expanded="true" signature="498:1144" ph="{...}" />
-                <marker date="1561118663505" expanded="true" signature="934:980" ph="{...}" />
-                <marker date="1561118663505" expanded="true" signature="987:1034" ph="{...}" />
+                <marker date="1561119563225" expanded="true" signature="6:92" ph="..." />
+                <marker date="1561119563225" expanded="true" signature="138:1253" ph="{...}" />
+                <marker date="1561119563225" expanded="true" signature="354:397" ph="{...}" />
+                <marker date="1561119563225" expanded="true" signature="498:1251" ph="{...}" />
+                <marker date="1561119563225" expanded="true" signature="1041:1087" ph="{...}" />
+                <marker date="1561119563225" expanded="true" signature="1094:1141" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GhostMovement.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/GhostMovement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="57" selection-end-column="5" />
+              <folding>
+                <marker date="1561125506116" expanded="false" signature="6:78" ph="..." />
+                <marker date="1561125506116" expanded="true" signature="80:232" ph="/* This is an enum, or Enumeration; A list of linked constants. ... */" />
+                <marker date="1561125506116" expanded="true" signature="251:275" ph="{...}" />
+                <marker date="1561125506116" expanded="true" signature="277:426" ph="/* Notice how I declared the enum OUTSIDE of the main body of the class - this makes the enum available ... */" />
+                <marker date="1561125506116" expanded="true" signature="471:1465" ph="{...}" />
+                <marker date="1561125506116" expanded="true" signature="747:925" ph="{...}" />
+                <marker date="1561125506116" expanded="true" signature="949:1072" ph="{...}" />
+                <marker date="1561125506116" expanded="true" signature="1023:1043" ph="{...}" />
+                <marker date="1561125506116" expanded="true" signature="1050:1069" ph="{...}" />
+                <marker date="1561125506116" expanded="true" signature="1094:1145" ph="{...}" />
+                <marker date="1561125506116" expanded="true" signature="1168:1325" ph="{...}" />
+                <marker date="1561125506116" expanded="true" signature="1345:1351" ph="{...}" />
+                <marker date="1561125506116" expanded="true" signature="1381:1463" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -40,12 +101,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/GhostMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/GhostMovement.cs" />
       </list>
     </option>
   </component>
@@ -120,12 +183,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561110492213</updated>
-      <workItem from="1561110496298" duration="1488000" />
+      <workItem from="1561110496298" duration="4189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1488000" />
+    <option name="totallyTimeSpent" value="4189000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -175,15 +238,37 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/PlayerMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="36" column="83" selection-start-line="36" selection-start-column="83" selection-end-line="36" selection-end-column="83" />
+        <state relative-caret-position="580">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
-            <marker date="1561118663505" expanded="true" signature="6:92" ph="..." />
-            <marker date="1561118663505" expanded="true" signature="138:1146" ph="{...}" />
-            <marker date="1561118663505" expanded="true" signature="354:397" ph="{...}" />
-            <marker date="1561118663505" expanded="true" signature="498:1144" ph="{...}" />
-            <marker date="1561118663505" expanded="true" signature="934:980" ph="{...}" />
-            <marker date="1561118663505" expanded="true" signature="987:1034" ph="{...}" />
+            <marker date="1561119563225" expanded="true" signature="6:92" ph="..." />
+            <marker date="1561119563225" expanded="true" signature="138:1253" ph="{...}" />
+            <marker date="1561119563225" expanded="true" signature="354:397" ph="{...}" />
+            <marker date="1561119563225" expanded="true" signature="498:1251" ph="{...}" />
+            <marker date="1561119563225" expanded="true" signature="1041:1087" ph="{...}" />
+            <marker date="1561119563225" expanded="true" signature="1094:1141" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GhostMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="57" selection-end-column="5" />
+          <folding>
+            <marker date="1561125506116" expanded="false" signature="6:78" ph="..." />
+            <marker date="1561125506116" expanded="true" signature="80:232" ph="/* This is an enum, or Enumeration; A list of linked constants. ... */" />
+            <marker date="1561125506116" expanded="true" signature="251:275" ph="{...}" />
+            <marker date="1561125506116" expanded="true" signature="277:426" ph="/* Notice how I declared the enum OUTSIDE of the main body of the class - this makes the enum available ... */" />
+            <marker date="1561125506116" expanded="true" signature="471:1465" ph="{...}" />
+            <marker date="1561125506116" expanded="true" signature="747:925" ph="{...}" />
+            <marker date="1561125506116" expanded="true" signature="949:1072" ph="{...}" />
+            <marker date="1561125506116" expanded="true" signature="1023:1043" ph="{...}" />
+            <marker date="1561125506116" expanded="true" signature="1050:1069" ph="{...}" />
+            <marker date="1561125506116" expanded="true" signature="1094:1145" ph="{...}" />
+            <marker date="1561125506116" expanded="true" signature="1168:1325" ph="{...}" />
+            <marker date="1561125506116" expanded="true" signature="1345:1351" ph="{...}" />
+            <marker date="1561125506116" expanded="true" signature="1381:1463" ph="{...}" />
           </folding>
         </state>
       </provider>
