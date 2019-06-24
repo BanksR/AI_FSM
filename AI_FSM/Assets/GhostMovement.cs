@@ -61,7 +61,7 @@ public class GhostMovement : MonoBehaviour
                 Idle();
                 break;
             case State.Wander:
-                StartCoroutine(Wander());
+                
                 break;
             case State.Chase:
                 Chase();
@@ -105,11 +105,11 @@ public class GhostMovement : MonoBehaviour
 
         yield return new WaitForSeconds(.5f);
 
-        Vector2 wander = transform.position * (Random.insideUnitCircle.normalized * wanderRadius);
+	    Vector2 wander = Random.insideUnitCircle - (Vector2) transform.position;
 
         while (Vector3.Distance(transform.position, wander) > .2f)
         {
-            transform.position = Vector3.MoveTowards(transform.position, wander, ghostSpeed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, wander * wanderRadius, ghostSpeed * Time.deltaTime);
             yield return new WaitForEndOfFrame();
         }
 
@@ -137,8 +137,8 @@ public class GhostMovement : MonoBehaviour
         }
         else if (GetDistance() > 5f)
         {
-            StopAllCoroutines();
-            currentState = State.Wander;
+            
+            currentState = State.Idle;
         }
 
 	}
@@ -152,8 +152,8 @@ public class GhostMovement : MonoBehaviour
         if (GetDistance() > 1.5f)
         {
             _anims.SetBool("IsAttacking", false);
-            StopAllCoroutines();
-            currentState = State.Wander;
+            
+            currentState = State.Idle;
         }
 
     }

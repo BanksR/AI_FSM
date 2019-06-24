@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
 	
 	private float horiz, vert = 0;
 
+	private bool facingRight = true;
+
 
 	private Animator _anims;
 
@@ -34,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
 		
 		// here we create a new vector 2 to handle the transformation
 		Vector2 movement = new Vector2(horiz, vert);
-
+		Debug.Log(movement);
 		
 		// This if checks to see if there is any player input and switches the animatin on/off accordingly
 		if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") !=0)
@@ -46,8 +48,30 @@ public class PlayerMovement : MonoBehaviour
 			_anims.SetBool("IsWalking", false);
 		}
 
+		
+		// This checks the player input: if moving left and currently facingRight then flip the sprite
+		if (Input.GetAxisRaw("Horizontal") < 0 && facingRight)
+		{
+			Flip();
+		}
+		
+		// Else, if the player is moving right but NOT facing right, flip the sprite
+		else if (Input.GetAxisRaw("Horizontal") > 0 && !facingRight)
+		{
+			Flip();
+		}
+
 		// Our new variable is then used to update the player position values
 		transform.position = movement;
 
+	}
+
+	
+	// This function multiplies the scale x of the sprite - flipping it on the horizontal plane
+	void Flip()
+	{
+		facingRight = !facingRight;
+		Vector3 temp = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+		transform.localScale = temp;
 	}
 }
