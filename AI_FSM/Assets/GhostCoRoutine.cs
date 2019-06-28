@@ -11,6 +11,8 @@ public class GhostCoRoutine : MonoBehaviour
 	public float wanderRange = 3f;
 
 	private Transform _playerTarget;
+	public Transform ghostHome;
+	private bool isHome = true;
 	private Animator _anims;
 
 	private State currentState = State.Idle;
@@ -22,6 +24,8 @@ public class GhostCoRoutine : MonoBehaviour
 		_anims = GetComponent<Animator>();
 		
 		StartCoroutine(Idle());
+
+		transform.position = ghostHome.position;
 	}
 
 	private float GetDistance()
@@ -43,6 +47,13 @@ public class GhostCoRoutine : MonoBehaviour
 				StartCoroutine(Chase());
 				yield return null;
 			}
+			
+			else if (GetDistance() > 5f && !isHome)
+			{
+				currentState = State.GoHome;
+				StartCoroutine(GoHome());
+			}
+
 			yield return new WaitForEndOfFrame();
 		}
 		//Debug.Log("Exiting: Idle");
@@ -53,7 +64,7 @@ public class GhostCoRoutine : MonoBehaviour
 	IEnumerator Chase()
 	{
 		//Debug.Log("Chasing...");
-		moveSpeed = 2f;
+		moveSpeed = 2.5f;
 		
 		while (currentState == State.Chase)
 		{
@@ -81,6 +92,7 @@ public class GhostCoRoutine : MonoBehaviour
 
 	IEnumerator Wander()
 	{
+		isHome = false;
 		moveSpeed = 0.5f;
 		//Debug.Log("Wandering...");
 		_anims.SetBool("IsIdling", true);
@@ -92,14 +104,21 @@ public class GhostCoRoutine : MonoBehaviour
 		while (Vector2.Distance(transform.position, randDir) > 0.2f)
 			
 		{
-			Debug.Log(Vector2.Distance(transform.position, randDir));
+			//Debug.Log(Vector2.Distance(transform.position, randDir));
 			transform.position = Vector3.MoveTowards(transform.position, randDir, Time.deltaTime);
-			yield return new WaitForEndOfFrame();
 			
+
+			if (GetDistance() < 5)
+			{
+				break;
+			}
+			yield return new WaitForEndOfFrame();
+
 		}
 
-		currentState = State.Idle;
-		StartCoroutine(Idle());
+		
+		currentState = State.GoHome;
+		StartCoroutine(GoHome());
 
 		yield return null;
 	}
@@ -126,4 +145,36 @@ public class GhostCoRoutine : MonoBehaviour
 
 		yield return null;
 	}
+
+	IEnumerator GoHome()
+	{
+
+		moveSpeed = 1f;
+		float dist;
+
+		//dist = Vector2.Distance(transform.position, ghostHome.position);
+
+		while (Vector2.Distance(transform.position, ghostHome.position) > 0.1f)
+		{
+			//Vector2.Distance(transform.position, ghostHome.position);
+			transform.position =
+				Vector2.MoveTowards(transform.position, ghostHome.position, moveSpeed * Time.deltaTime);
+
+			if (GetDistance() < 5)
+			{
+				break;
+			}
+
+			yield return new WaitForEndOfFrame();
+		
+		}
+
+		isHome = true;
+		currentState = State.Idle;
+		StartCoroutine(Idle());
+
+		yield return null;
+	}
+
+
 }

@@ -10,6 +10,7 @@ public enum State
 	Idle,
     Wander,
 	Chase,
+	GoHome,
     Attack,
 	Die
 }
