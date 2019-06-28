@@ -42,8 +42,9 @@ public class GhostMovement : MonoBehaviour
 
         // Grabbing a reference to the Animator Component on the Ghost gameobject
         _anims = GetComponent<Animator>();
+		//StartCoroutine(Idle());
 
-		
+
 	}
 
     // Remember, the Update() function is called every. single. frame.
