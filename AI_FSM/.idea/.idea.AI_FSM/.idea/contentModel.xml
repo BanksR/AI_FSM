@@ -5,12 +5,13 @@
       <e p="AI_FSM.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="BlinkScript.cs" t="Include" />
-        <e p="GhostCoRoutine.cs" t="Include" />
-        <e p="GhostMovement.cs" t="Include" />
-        <e p="PlayerMovement.cs" t="Include" />
-        <e p="StopBlinking.cs" t="Include" />
-        <e p="Unit34_Examples.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="BlinkScript.cs" t="Include" />
+          <e p="GhostCoRoutine.cs" t="Include" />
+          <e p="GhostMovement.cs" t="Include" />
+          <e p="PlayerMovement.cs" t="Include" />
+          <e p="StopBlinking.cs" t="Include" />
+        </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
